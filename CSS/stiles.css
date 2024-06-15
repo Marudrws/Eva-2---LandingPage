@@ -1,0 +1,108 @@
+body {
+    background-color: #00000099;
+    background-image: url("../IMG/imagine2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.fondo {
+    background-color: rgba(0, 0, 0, 0.644);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.hero-section {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sedan-regular-italic {
+    font-family: "Sedan", serif;    
+    font-weight: 400;
+    font-style: italic;
+}
+
+.titulo {
+    color: #6635d5;
+    text-shadow: 3px 3px 6px #000; 
+    font-size: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dalecolor {
+    color: rgba(219, 199, 250, 0.921);
+    text-shadow: 3px 3px 6px rgba(255, 255, 255, 0.401);
+    font-size: 30px;
+}
+
+.text, .texttwo {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.686);
+    border-radius: 20px 10px 5px 30px;
+    font-size: 18px;
+    padding: 2%;
+    margin-bottom: 20px;
+}
+
+.boton {
+    background-color: rgba(212, 142, 252, 0.779);
+    border-radius: 20px; 
+    transition: transform 0.3s, background-color 0.3s; 
+    font-size: 18px;
+}
+
+.boton:hover {
+    transform: scale(1.05); 
+    background-color: #ac048ee5;  
+}
+
+.formulario {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+h2, label {
+    color: white;
+}
+
+.listt {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+.listtt {
+    background-color: rgba(102, 51, 230, 0.744);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin:10px
+}
+.error {
+    border-color: red;
+  }
+.error-message {
+    color: red;
+    font-size: 0.875em;
+  }
+  
